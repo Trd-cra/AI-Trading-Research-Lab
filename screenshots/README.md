@@ -1,11 +1,9 @@
 # ATRL Screenshots
 
-Presentation order:
+The screenshots show the research workflow in execution order:
 
-01 — ATRL startup / initialization
-02 — ATRL Control V174·B247
-03 — ATRL live control state
-04 — FT backtest result
-05 — ATRL A/B Tests
-
-The images are intentionally presented in workflow order: initialization → control → live state → backtest evidence → controlled A/B research.
+1. Startup / initialization
+2. Control
+3. Live state
+4. Backtest
+5. A/B research

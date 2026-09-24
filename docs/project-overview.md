@@ -1,7 +1,7 @@
 # Project Overview
 
-AI Trading Research Lab (ATRL) is a multi-stage, automated trading research and validation environment designed to orchestrate repeatable workflows while keeping the production implementation isolated.
+AI Trading Research Lab (ATRL) is an automated environment for repeatable trading research and validation.
 
-The system combines runtime diagnostics, backtesting, lookahead analysis, hyperparameter research and controlled A/B experiments with explicit state, evidence and decision gates.
+The system combines workflow orchestration, backtesting, lookahead analysis, hyperparameter research, runtime diagnostics and controlled A/B experiments.
 
-The public portfolio describes the engineering approach, automation and validation methodology without exposing the underlying proprietary strategy implementation.
+The public portfolio focuses on the engineering approach and validation methodology while keeping the production strategy implementation private.

@@ -1,5 +1,5 @@
 # QA & Validation
 
-ATRL uses isolated research stages, reproducible snapshots, runtime diagnostics, controlled A/B candidates and explicit acceptance / rejection decisions.
+ATRL uses isolated research stages, reproducible snapshots, runtime diagnostics and controlled A/B candidates.
 
-The objective is not merely to produce a numerical result, but to preserve traceability between an experiment, its evidence, validation period and decision.
+Each experiment is evaluated with traceable evidence, defined validation periods and explicit acceptance or rejection criteria.

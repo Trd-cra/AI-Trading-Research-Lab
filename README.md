@@ -1,73 +1,67 @@
 # AI Trading Research Lab (ATRL)
 
-Public portfolio of an AI-assisted, automated trading research and validation environment.
+AI-assisted platform for automated trading research, backtesting and experimental validation.
 
-## Project
+## What it is
 
-ATRL is an engineering and research platform built around:
+ATRL is an automated research environment for developing and validating trading systems through repeatable experiments.
 
-- automated workflow orchestration;
-- isolated Trade / Backtest / Lookahead / Hyperopt workflows;
-- controlled A/B research and candidate evaluation;
-- reproducible research snapshots and decision gates;
-- failure analysis, diagnostics and recovery;
-- structured reporting and evidence-based validation.
+It combines:
 
-The public portfolio focuses on the engineering system, research methodology and validation workflow. Proprietary strategy implementation remains private.
+- workflow orchestration;
+- backtesting and lookahead analysis;
+- hyperparameter research;
+- controlled A/B experiments;
+- runtime diagnostics and failure analysis;
+- reproducible research and evidence-based validation.
 
-## Project Walkthrough
+The public repository presents the engineering and research workflow without exposing the proprietary trading strategy implementation.
 
-The screenshots demonstrate the workflow in this order:
+## Research Workflow
 
-1. ATRL startup and initialization
-2. ATRL Control V174·B247
-3. ATRL live control state
-4. FT backtest result
-5. ATRL A/B testing and candidate evaluation
+**Startup → Control → Live State → Backtest → A/B Research**
 
 ### 1. Startup
+
 ![ATRL startup](screenshots/01-startup.jpg)
 
-### 2. Control panel
+### 2. Control
+
 ![ATRL Control](screenshots/02-control.jpg)
 
-### 3. Live control state
-![ATRL live control](screenshots/03-control-live.png)
+### 3. Live State
+
+![ATRL live state](screenshots/03-control-live.png)
 
 ### 4. Backtest
-![FT backtest](screenshots/04-backtest.jpg)
 
-### 5. A/B research
-![ATRL A/B tests](screenshots/05-ab-tests.jpg)
+![Backtest](screenshots/04-backtest.jpg)
 
-## Engineering / QA Focus
+### 5. A/B Research
 
-- test orchestration
-- regression control
-- automated diagnostics
-- experiment isolation
+![A/B research](screenshots/05-ab-tests.jpg)
+
+## Engineering Focus
+
+- automation and orchestration
+- experimental design
 - A/B testing
 - backtesting validation
-- hyperparameter research
+- regression control
+- diagnostics and failure analysis
 - reproducibility
-- failure analysis
-- runtime monitoring
-- evidence-based decision gates
+- evidence-based decision making
 
-## Security Boundary
+## Public / Private Boundary
 
-This repository does NOT contain:
+This repository intentionally excludes:
 
-- proprietary trading strategy source code;
-- API keys or credentials;
-- .env files;
+- proprietary strategy source code;
+- API keys, credentials and `.env` files;
 - private production configuration;
-- internal infrastructure paths;
-- private runtime databases;
-- unrestricted trading logs.
-
-ATRL portfolio material is intentionally separated from the private implementation.
+- internal infrastructure details;
+- private databases and unrestricted runtime logs.
 
 ## Status
 
-Portfolio preview / continuously evolving project documentation.
+Public portfolio / research showcase.
