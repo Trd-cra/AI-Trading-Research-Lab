@@ -1,12 +1,7 @@
 # Project Overview
 
-ST1 is a multi-stage QA and research automation environment designed to
-orchestrate repeatable validation workflows while keeping production
-implementation isolated.
+AI Trading Research Lab (ATRL) is a multi-stage, automated trading research and validation environment designed to orchestrate repeatable workflows while keeping the production implementation isolated.
 
-The system combines runtime diagnostics, backtesting, lookahead analysis,
-hyperparameter research and controlled A/B experiments with explicit
-state, evidence and decision gates.
+The system combines runtime diagnostics, backtesting, lookahead analysis, hyperparameter research and controlled A/B experiments with explicit state, evidence and decision gates.
 
-This public portfolio describes the engineering approach without exposing
-the underlying proprietary strategy implementation.
+The public portfolio describes the engineering approach, automation and validation methodology without exposing the underlying proprietary strategy implementation.

@@ -1,32 +1,46 @@
-# ST1 — AI-Assisted QA & Research Automation
+# AI Trading Research Lab (ATRL)
 
-Public portfolio overview of ST1, an AI-assisted QA, automation and research platform.
+Public portfolio of an AI-assisted, automated trading research and validation environment.
 
 ## Project
 
-ST1 is an engineering and QA automation environment built around:
+ATRL is an engineering and research platform built around:
 
-- automated validation and diagnostics;
-- lifecycle and process orchestration;
+- automated workflow orchestration;
 - isolated Trade / Backtest / Lookahead / Hyperopt workflows;
-- A/B research and controlled candidate evaluation;
+- controlled A/B research and candidate evaluation;
 - reproducible research snapshots and decision gates;
-- failure analysis, recovery and runtime diagnostics;
+- failure analysis, diagnostics and recovery;
 - structured reporting and evidence-based validation.
 
-The portfolio intentionally excludes proprietary strategy code, credentials,
-production configuration and internal infrastructure details.
+The public portfolio focuses on the engineering system, research methodology and validation workflow. Proprietary strategy implementation remains private.
 
 ## Project Walkthrough
 
-The screenshots demonstrate the project in this order:
+The screenshots demonstrate the workflow in this order:
 
-1. ST1 startup and initialization
-2. ST1 Control V174·B247
-3. Backtest result
-4. A/B testing and candidate evaluation
+1. ATRL startup and initialization
+2. ATRL Control V174·B247
+3. ATRL live control state
+4. FT backtest result
+5. ATRL A/B testing and candidate evaluation
 
-## QA / Engineering Focus
+### 1. Startup
+![ATRL startup](screenshots/01-startup.jpg)
+
+### 2. Control panel
+![ATRL Control](screenshots/02-control.jpg)
+
+### 3. Live control state
+![ATRL live control](screenshots/03-control-live.png)
+
+### 4. Backtest
+![FT backtest](screenshots/04-backtest.jpg)
+
+### 5. A/B research
+![ATRL A/B tests](screenshots/05-ab-tests.jpg)
+
+## Engineering / QA Focus
 
 - test orchestration
 - regression control
@@ -44,15 +58,15 @@ The screenshots demonstrate the project in this order:
 
 This repository does NOT contain:
 
-- trading strategy source code;
+- proprietary trading strategy source code;
 - API keys or credentials;
-- `.env` files;
+- .env files;
 - private production configuration;
 - internal infrastructure paths;
 - private runtime databases;
 - unrestricted trading logs.
 
-ST1 portfolio material is intentionally separated from the private implementation.
+ATRL portfolio material is intentionally separated from the private implementation.
 
 ## Status
 
